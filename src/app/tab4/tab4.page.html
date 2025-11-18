@@ -1,18 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Bar-Chart
-    </ion-title>
+    <ion-title>MixChart</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
 <app-bar-chart [nameTab]="nombreTab"></app-bar-chart>
 
+<app-line-chart [nameTab]="nombreTab"></app-line-chart>
+
+<app-pie-chart [nameTab]="nombreTab"></app-pie-chart>
 </ion-content>
